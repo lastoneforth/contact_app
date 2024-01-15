@@ -18,7 +18,7 @@ jobs:
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY}}
           ARGS: "-rlgoDzvc -i"
-          SOURCE: "contact_app/"
+          SOURCE: "/"
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_USER: root
           TARGET: '/root/Contacts'
