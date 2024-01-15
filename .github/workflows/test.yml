@@ -5,9 +5,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Clone the repoe
+        uses: actions/checkout@v2
       - name: dump
         run: |
           echo 'github.workspace === ${{ github.workspace }}'
           echo "GITHUB_WORKSPACE === $GITHUB_WORKSPACE"
           pwd
-          ls -a ../../..
+          ls -a
