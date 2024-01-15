@@ -9,4 +9,5 @@ jobs:
         run: |
           echo 'github.workspace === ${{ github.workspace }}'
           echo 'github.workspace === ${{ github.workspace }}'
+          pwd
           ls -a ../..
