@@ -9,4 +9,4 @@ jobs:
         run: |
           echo 'github.workspace === ${{ github.workspace }}'
           echo 'github.workspace === ${{ github.workspace }}'
-          ls -a
+          ls -a ..
