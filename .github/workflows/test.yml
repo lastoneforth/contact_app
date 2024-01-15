@@ -10,4 +10,4 @@ jobs:
           echo 'github.workspace === ${{ github.workspace }}'
           echo "GITHUB_WORKSPACE === $GITHUB_WORKSPACE"
           pwd
-          ls -a ../..
+          ls -a ../../..
