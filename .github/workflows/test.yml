@@ -8,3 +8,4 @@ jobs:
       - name: dump
         run: |
           echo 'github.workspace === ${{ github.workspace }}'
+          echo 'github.workspace === ${{ github.workspace }}'
