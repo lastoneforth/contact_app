@@ -1,0 +1,10 @@
+name: test_Django1
+on: [pull_request, push]
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: dump
+        run: |
+          echo 'github.workspace === ${{ github.workspace }}'
